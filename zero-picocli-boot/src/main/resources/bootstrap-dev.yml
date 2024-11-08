@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: zero-picocli-boot
+    mail:
+        host: smtp.gmail.com
+        password: password
+        port: 587
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+                        required: true
+        username: email
